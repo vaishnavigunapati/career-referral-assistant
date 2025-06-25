@@ -1,0 +1,11 @@
+gradio
+python-dotenv
+duckduckgo-search
+PyPDF2
+fpdf
+langchain
+sentence-transformers
+scikit-learn
+beautifulsoup4
+requests
+google-search-results

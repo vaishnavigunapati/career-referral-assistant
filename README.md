@@ -47,34 +47,7 @@ career-referral-assistant/
 
 ---
 
-## 🛠️ How to Deploy on Hugging Face Spaces
 
-### Step 1: Upload the Code
-
-1. Go to 👉 [https://huggingface.co/spaces](https://huggingface.co/spaces)
-2. Click `Create new Space`
-   - **Space SDK**: Gradio
-   - **Name**: `career-referral-assistant`
-   - **Visibility**: Public or Private
-3. In the **Files and versions** tab, upload:
-   - `app.py`
-   - `requirements.txt`
-   - `agents/` and `database/` folders
-
----
-
-### Step 2: Add Secrets (Environment Variables)
-
-Go to the **Settings → Secrets** tab in your Hugging Face Space and add:
-
-| Key            | Value                                  |
-|----------------|----------------------------------------|
-| `GROQ_API_KEY` | `gsk_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX` |
-| `SERPAPI_KEY`  | `3b5d9aae1e53XXXXXXXXXXXXXXXXXXXXXXXXX` |
-
----
-
-### Step 3: Define Your Requirements
 
 Create a file called `requirements.txt`:
 
@@ -88,12 +61,6 @@ langchain
 ```
 
 ---
-
-### Step 4: Done ✅
-
-Once your Space rebuilds:
-- You’ll see a **public Gradio UI**
-- Upload a resume → Enter job title + location → Get instant results
 
 ---
 
